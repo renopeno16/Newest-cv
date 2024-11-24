@@ -1,0 +1,50 @@
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial, sans-serif'; 
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+p, u1 {
+  color: #ffffff;
+  line-height: 1.6;
+  font-size: 15px;
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-top: 1px, solid #ddd;
+}
